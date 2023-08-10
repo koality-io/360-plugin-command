@@ -4,13 +4,14 @@ This plugin will collect data that is returned from a command line command. The 
 
 ## Configuration
 
+To activate the plugin please enable it in your `agent360.ini` file. 
+
 ```
 [cli_command]
 
 enabled = yes
 command = /path/to/command
 ```
-
 
 ### Example for a PHP script
 
